@@ -1,7 +1,31 @@
+import java.util.Objects;
+
 public class Komplex {
-    double re = 7;
-    double im = 4;
-    public Komplex(double v, double v1) {
+    public Komplex() {
 
     }
+
+    public Komplex(double re, double im) {
+        re = 3.0;
+        im = 2.0;
+    }
+
+    public Komplex add(Komplex b) {
+
+        return null;
+    }
+
+    public Komplex multiply(Komplex b) {
+        return null;
+    }
+
+    public double arg() {
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Komplex{}";
+    }
+
 }
